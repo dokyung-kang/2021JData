@@ -1,0 +1,43 @@
+import java.util.*;
+public class ListName {
+
+	public static void main(String[] args) {
+		int n;
+		String s;
+		int have = 0;
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		ArrayList<String> list = new ArrayList<>();
+		System.out.println("1.회원추가  2.회원삭제  3.회원출력  4.종료");
+		do {
+			System.out.print("메뉴를 선택: ");
+			n = sc.nextInt();
+			if (n == 1) {
+					System.out.print("추가할 회원의 이름: ");
+					s = sc.next();
+					for (String ss : list) {
+						if (s == list.get(i)) {
+						System.out.println("이미 존재하는 회원");
+						have = 1;
+						break;
+						}
+						i++;
+				}
+				if (have != 1) {
+					list.add(s);
+					have = 0;
+				}
+			}
+			else if (n == 2) {
+				
+				System.out.print("추가할 회원의 이름: ");
+				s = sc.next();
+				list.add(s);
+			}
+				
+				
+		} while (n != 4);
+
+	}
+
+}

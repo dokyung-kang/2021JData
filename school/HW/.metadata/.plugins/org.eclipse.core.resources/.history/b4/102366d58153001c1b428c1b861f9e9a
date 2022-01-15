@@ -1,0 +1,6 @@
+
+public class SPrinter implements Printable {
+	void print(String doc) {
+		
+	}
+}

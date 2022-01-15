@@ -1,0 +1,12 @@
+
+public class PrinterTest{
+
+	public static void main(String[] args) {
+		Printable p1 = new SPrinter();
+		Printable p2 = new LPrinter();
+		
+		p1.print("sumsung");
+		p2.print("LG");
+	}
+
+}

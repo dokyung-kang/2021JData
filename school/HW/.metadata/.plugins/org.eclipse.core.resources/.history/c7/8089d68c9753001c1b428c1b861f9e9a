@@ -1,0 +1,15 @@
+
+public class StringMemory implements Memory{
+	public int length() {
+		return 1;
+	}
+	public int capacity() {
+		return 1;
+	}
+	public String delete() {
+		return "";
+	}
+	public boolean add(String val) {
+		return true;
+	}
+}

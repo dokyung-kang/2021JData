@@ -1,0 +1,10 @@
+
+public interface Printable {
+		int PAPER_WIDTH = 80;
+		
+		print(String doc);
+}
+
+public class Printabe implement {
+	
+}

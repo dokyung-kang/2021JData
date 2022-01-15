@@ -1,0 +1,18 @@
+import java.util.*;
+public class List {
+
+	public static void main(String[] args) {
+		int n;
+		Scanner sc = new Scanner(System.in);
+		ArrayList<String> list = new ArrayList<>();
+		System.out.println("1.회원추가  2.회원삭제  3.회원출력  4.종료");
+		do {
+			System.out.print("메뉴를 선택: ");
+			n = sc.nextInt();
+			if (n == 1)
+				
+		} while (n != 4);
+
+	}
+
+}

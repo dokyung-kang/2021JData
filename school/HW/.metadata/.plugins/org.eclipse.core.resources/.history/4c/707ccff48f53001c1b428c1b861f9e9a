@@ -1,0 +1,14 @@
+
+public class Point {
+	int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	public void equals(Point x, Point y) {	
+		if ((x instanceof Point) == (y instanceof Point))
+			System.out.println(x + "is equal to " + y);
+		else
+			System.out.println(x + "is not equal to " + y);
+	}
+}

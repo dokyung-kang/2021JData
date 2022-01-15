@@ -1,0 +1,18 @@
+
+public class ShapeTest {
+
+	public static void main(String[] args) {
+		Movable r = new Rectangle();
+		Movable t = new Triangle();
+		Movable c = new Circle();
+		
+		int x;
+		int y;
+		
+		x = (int)(Math.random() * 100) + 1;
+		x = (int)(Math.random() * 100) + 1;
+		
+
+	}
+
+}

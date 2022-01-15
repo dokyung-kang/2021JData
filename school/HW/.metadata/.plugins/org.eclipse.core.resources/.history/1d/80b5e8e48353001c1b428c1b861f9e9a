@@ -1,0 +1,4 @@
+
+interface ColorPrintable extends Printable{
+	printCMYK(String doc);
+}

@@ -1,0 +1,8 @@
+
+public class SPrinter implements Printable {
+	public void print(String doc) {
+		System.out.println("From" + doc +  "printer");
+		System.out.println("This is a printer driver");
+		System.out.println("ÆäÀÌÁö Æø: " + PAPER_WIDTH);
+	}
+}

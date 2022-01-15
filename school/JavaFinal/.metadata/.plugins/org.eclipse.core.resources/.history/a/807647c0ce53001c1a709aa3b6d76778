@@ -1,0 +1,10 @@
+
+public class Poliymorphism {
+	private void f() {
+		System.out.println("base class");
+	}
+	public static void main(String[] args) {
+		Poliymorphism po =  new Derived();
+		po.f();
+	}
+}

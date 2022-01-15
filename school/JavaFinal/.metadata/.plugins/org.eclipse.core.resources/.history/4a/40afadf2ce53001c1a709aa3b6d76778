@@ -1,0 +1,6 @@
+
+public class Derived {
+	pubic void f() {
+		System.out.println("sub class");
+	}
+}

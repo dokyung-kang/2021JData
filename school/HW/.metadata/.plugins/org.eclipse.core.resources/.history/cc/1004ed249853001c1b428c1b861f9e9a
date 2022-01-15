@@ -1,0 +1,19 @@
+
+public class StringMemory implements Memory{
+	int m;
+	String[] list = new String[m];
+	public int length(int n) {
+		this.m = n;
+		return m;
+	}
+	public int capacity(int n) {
+		
+		return m;
+	}
+	public String delete(String s) {
+		return "";
+	}
+	public boolean add(String val) {
+		return true;
+	}
+}

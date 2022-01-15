@@ -1,0 +1,7 @@
+
+interface Memory {
+	public int length();
+	public int capacity();
+	public String delete();
+	public boolean add(String val);
+}

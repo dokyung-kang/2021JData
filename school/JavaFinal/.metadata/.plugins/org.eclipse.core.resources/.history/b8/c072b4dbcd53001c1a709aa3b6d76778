@@ -1,0 +1,21 @@
+
+public class CodeBlocks {
+	private static String aField = "";
+	private String bField = "";
+	
+	static {
+		aField += "A";
+	}
+	{
+		aField += "B";
+		bField += "B";
+	}
+	public CodeBlocks() {
+		aField += "C";
+		bField += "C";
+	}
+	public void append() {
+		aField += "D";
+		bField += "D";
+	}
+}

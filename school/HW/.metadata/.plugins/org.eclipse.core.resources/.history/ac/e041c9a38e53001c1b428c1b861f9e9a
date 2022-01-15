@@ -1,0 +1,15 @@
+
+public class Point {
+	int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	public void equals(Point x, Point y) {
+		if (x == y)
+			System.out.println(x + "와 " + y + "는 주소가 같다");
+		else
+			System.out.println(x + "와 " + y + "는 주소가 다르다");
+			
+	}
+}

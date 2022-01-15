@@ -1,0 +1,14 @@
+
+public class Point {
+	int x, y;
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	public boolean equals(Point y) {
+		if (this.x == y)
+			return 1;
+		else
+			reuturn 0;
+	}
+}
